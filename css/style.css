@@ -1,17 +1,18 @@
-body
+body {
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
-  height: 100px;
-  margin-top: -10px;
-  position: fixed;
-  width: 100%;
+  background-color:yellow;
+  height:100px;
+  margin-top:10px;
+  position:fixed;
+  width:100%;
 }
 
 section {
-  margin: 0 auto;
+  margin:0 auto;
+  padding-top: 150px;
   width: 60%;
 }
 /** page title**/
@@ -21,24 +22,21 @@ h1 {
 }
 
 .example, h3 {
-  padding-top: 30px;
+
   text-align: center;
 }
 /** "this is a div element" text **/
 h3 {
-  font-size: 1.3em;
+  font-size:1.3em;
 }
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
 }
 /** bottom three elements to complete assignment, changed color to pink **/
 .bottom_three {
   background-color: pink;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
 }
